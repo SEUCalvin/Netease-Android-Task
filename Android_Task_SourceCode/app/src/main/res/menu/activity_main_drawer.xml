@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/setting">
+        <menu>
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@drawable/ic_menu_theme"
+                android:title="@string/theme_switch"
+                app:actionLayout="@layout/action_view_switch" />
+        </menu>
+    </item>
+
+    <item android:title="联系">
+        <menu>
+            <item
+                android:icon="@drawable/ic_menu_send"
+                android:title="15751868781@163.com" />
+        </menu>
+    </item>
+
+    <item android:title="关于">
+        <menu>
+            <item
+            android:icon="@drawable/ic_menu_bookshelf"
+            android:title="查书小助手 V1.0" />
+            <item
+                android:icon="@drawable/ic_menu_home"
+                android:title="网易在校学习任务" />
+        </menu>
+    </item>
+</menu>
